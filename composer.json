@@ -1,5 +1,5 @@
 {
-    "name": "pugx/autocompleter-bundle",
+    "name": "vocjunior/autocompleter-bundle",
     "type": "symfony-bundle",
     "description": "Add an autocomplete type to forms",
     "keywords": ["symfony2 form field"],
@@ -8,6 +8,10 @@
         {
             "name": "Massimiliano Arione",
             "email": "garakkio@gmail.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/vocjunior/PUGXAutoCompleterBundle/graphs/contributors"
         }
     ],
     "require": {

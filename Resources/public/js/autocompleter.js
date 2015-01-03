@@ -9,7 +9,7 @@
             if (options) {
                 $.extend(settings, options);
             }
-            var $this = $(this), $fakeInput = $('<input type="text" name="fake' + $this.attr('name') + '">');
+            var $this = $(this), $fakeInput = $('<input type="text" name="fake' + $this.attr('name') + '" class="'+ $this.attr('class') +'">');
             $this.hide().after($fakeInput);
             $fakeInput.autocomplete({
                 source: settings.url_list,
